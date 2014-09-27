@@ -1,4 +1,4 @@
 custom-test-framework
 =====================
 
-Create your custom test framework for UI testing based on Telerik Testing Framework
+Create your custom UI test framework based on <a href="http://www.telerik.com/teststudio/testing-framework">Telerik Testing Framework</a>
