@@ -8,4 +8,3 @@ Features:
 - Code reuse
 - Configurations
 - Text reporting and Video recording
-- 
