@@ -9,5 +9,5 @@ Features:
 - Configurations
 - Text reporting and Video recording
 
-All the features and concepts are defined in the <a href="https://github.com/theqaangel/custom-test-framework/wiki">WIKI</a>.
+All the features and concepts are defined in the <a href="https://github.com/theqaangel/custom-test-framework/wiki">Wiki</a>.
 
