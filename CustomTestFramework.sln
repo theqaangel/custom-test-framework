@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTestFramework", "CustomTestFramework.csproj", "{09D78FED-BF11-41CD-BA21-B04A8D5A2F91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6EF63A7-9CB1-4576-89FB-82BE124CF89F}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		RemoteExecution.testsettings = RemoteExecution.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09D78FED-BF11-41CD-BA21-B04A8D5A2F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D78FED-BF11-41CD-BA21-B04A8D5A2F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D78FED-BF11-41CD-BA21-B04A8D5A2F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D78FED-BF11-41CD-BA21-B04A8D5A2F91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
