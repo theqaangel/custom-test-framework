@@ -9,7 +9,7 @@ namespace CustomTestFramework.TestCases
 {
     [TestClass,
     EntryPoint("http://gmail.com")]
-    public class SampleTests : BaseTestCase
+    public class GmailTests : BaseTestCase
     {
         [TestMethod,
         Description("Verify Log In")]

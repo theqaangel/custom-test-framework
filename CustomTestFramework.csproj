@@ -83,7 +83,7 @@
     <Compile Include="Core\Reporting\Report.cs" />
     <Compile Include="Core\TestUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestCases\SampleTests.cs" />
+    <Compile Include="TestCases\GmailTests.cs" />
     <Compile Include="Views\AutomationView.cs" />
     <Compile Include="Views\ComposeView.cs" />
     <Compile Include="Views\LoginView.cs" />
