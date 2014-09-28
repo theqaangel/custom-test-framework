@@ -6,7 +6,6 @@ Create your custom UI testing framework based on <a href="http://www.telerik.com
 Requirements:
 - <a href="http://www.telerik.com/download/testing-framework" target="_blank"> Install Telerik Testing Framework</a>
 
-
 Features:
 - Framework independant tests
 - Easy for maintanance tests
