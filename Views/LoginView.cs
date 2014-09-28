@@ -21,7 +21,7 @@ namespace CustomTestFramework.Views
         {
             get
             {
-                return new TextBox("Passwd textbox", By.Id("Passwd"));
+                return new TextBox("Password textbox", By.Id("Passwd"));
             }
         }
 
