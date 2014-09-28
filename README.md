@@ -7,10 +7,9 @@ Requirements:
 - <a href="http://www.telerik.com/download/testing-framework" target="_blank"> Install Telerik Testing Framework</a>
 
 Features:
-- Defined files structure
-- Code reuse
 - Framework independant tests
 - Easy for maintanance tests
+- Defined files structure
 - Configurations
 - Text reporting and Video recording
 
