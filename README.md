@@ -9,6 +9,8 @@ Requirements:
 Features:
 - Defined files structure
 - Code reuse
+- Framework independant tests
+- Easy for maintanance tests
 - Configurations
 - Text reporting and Video recording
 
