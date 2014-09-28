@@ -16,7 +16,7 @@ namespace CustomTestFramework.TestCases
         public void LogInTest()
         {
             loginView.EmailTextBox.Enter(testUser.Username);
-            loginView.PasswdTextBox.Enter(testUser.Password);
+            loginView.PasswordTextBox.Enter(testUser.Password);
             loginView.SignInButton.Click();
 
             mainView.IsPresented();

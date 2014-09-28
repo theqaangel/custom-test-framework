@@ -17,7 +17,7 @@ namespace CustomTestFramework.Views
             }
         }
 
-        public ITextBox PasswdTextBox
+        public ITextBox PasswordTextBox
         {
             get
             {
@@ -38,12 +38,12 @@ namespace CustomTestFramework.Views
             try
             {
                 this.EmailTextBox.Enter(username);
-                this.PasswdTextBox.Enter(password);
+                this.PasswordTextBox.Enter(password);
                 this.SignInButton.Click();
             }
             catch
             {
-                Report.Error("Lod In failed");
+                Report.Error("Log In failed");
             }
         }
     }
