@@ -22,26 +22,26 @@ namespace CustomTestFramework.TestCases
             mainView.IsPresented();
         }
 
-        [TestMethod,
-        Description("Verify mail composing")]
-        public void ComposeMailTest()
-        {
-            loginView.LogIn(testUser.Username, testUser.Password);
+        //[TestMethod,
+        //Description("Verify mail composing")]
+        //public void ComposeMailTest()
+        //{
+        //    loginView.LogIn(testUser.Username, testUser.Password);
 
-            mainView.IsPresented();
+        //    mainView.IsPresented();
 
-            int inboxMessages = mainView.GetInboxMessagesCount();
+        //    int inboxMessages = mainView.GetInboxMessagesCount();
 
-            mainView.ComposeButton.Click();
-            composeView.ToTextbox.Enter(testUser.Username);
-            composeView.SubjectTextbox.Enter("test subject");
-            composeView.BodyTextbox.Enter("test body");
-            composeView.SendButton.Click();
+        //    mainView.ComposeButton.Click();
+        //    composeView.ToTextbox.Enter(testUser.Username);
+        //    composeView.SubjectTextbox.Enter("test subject");
+        //    composeView.BodyTextbox.Enter("test body");
+        //    composeView.SendButton.Click();
 
-            mainView.InboxLabel.Click();
+        //    mainView.InboxLabel.Click();
 
-            mainView.VerifyInboxMessagesCount(inboxMessages + 1);
-        }
+        //    mainView.VerifyInboxMessagesCount(inboxMessages + 1);
+        //}
 
     }
 }
